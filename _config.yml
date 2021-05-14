@@ -1,16 +1,16 @@
 actors:
   alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
+    image_url: /images/actors/mitsuhiko.jpg
+    name: Mitsuhiko Yusa
+    url: https://twitter.com/yusa1990
   bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
+    image_url: /images/actors/riku.jpg
+    name: Riku Takenaka
+    url: https://twitter.com/riijon
 author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+description: この番組では、世の風流に敏感でハイセンス・ハイコンテクストな皆さまに、週ごとに担当する大将が、四季折々のささやかな小噺を提供するトークバラエティです。
+description_long: この番組では、世の風流に敏感でハイセンス・ハイコンテクストな皆さまに、週ごとに担当する大将が、四季折々のささやかな小噺を提供するトークバラエティです。
+email: riijon@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,7 +20,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: otsumamitalk
 itunes_podcast_url:
 keywords: comma,separated,keywords
 language: ja
@@ -29,5 +29,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: おつまみトーク
+url: https://otsumami-talk.github.io
